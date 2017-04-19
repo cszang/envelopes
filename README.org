@@ -1,0 +1,25 @@
+* Climatic envelopes for European tree species
+
+** Data
+
+The climatic envelopes are redrawn from Kölling 2007 [fn:1], who uses
+the "Map of the Natural Vegetation of Europe" [fn:2].
+
+** Usage
+
+#+BEGIN_SRC R
+library(envelopes)
+library(ggplot2)
+ggplot() + env_layer(env_fasy)
+#+END_SRC
+
+* Footnotes
+
+[fn:2] Bohn U, Gollub G. 2006. The use and application of the map of
+the natural vegetation of Europe with particular reference to
+Germany. Biology and Environment: Proceedings of the Royal Irish
+Academy 106B: 199–213.
+
+[fn:1] Kölling C. 2007. Klimahüllen von 27 Waldbaumarten. AFZ-Der Wald
+62: 1242–1245.
+

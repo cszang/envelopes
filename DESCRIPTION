@@ -1,0 +1,17 @@
+Package: envelopes
+Type: Package
+Title: Climatic Envelopes of Tree Species
+Version: 0.0.1
+Date: 2017-04-18
+Authors@R: c(person("Christian", "Zang", role = c("aut", "cre", "cph", "trl"),
+    email = "christian.zang@wzw.tum.de"))
+Imports:
+    ggplot2
+Description: This package contains climatic envelopes for European tree species,
+    redrawn from Kölling et al. 2007, who took their information from the Bohn map
+    ("Map of the Natural Vegetation of Europe").
+NeedsCompilation: no
+Encoding: utf-8
+License: GPL-3
+LazyData: yes
+RoxygenNote: 6.0.1
